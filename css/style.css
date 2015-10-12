@@ -1,0 +1,12 @@
+table {
+  margin: 0 auto;
+  border-radius:10px;
+}
+td {
+  border: 1px solid hotpink;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  font-size: 8em;
+  box-sizing: border-box;
+}

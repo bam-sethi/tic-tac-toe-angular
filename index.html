@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html ng-app="gameApp">
+<head>
+  <meta charset="UTF-8">
+  <title>TicTacToe</title>
+</head>
+<body ng-controller="GameController as game">
+  
+  <h1>Angular Tic-Tac-Toe </h1>
+  
+  <input type="submit" value="Play Game">
+
+  <table id="board">
+    <tr>
+      <td class="top left" ></td>
+      <td class="top middle"></td>
+      <td class="top right"></td>
+    </tr>
+    <tr>
+      <td class="top left"></td>
+      <td class="top middle"></td>
+      <td class="top right"></td>
+    </tr>
+      <tr>
+      <td class="top left"></td>
+      <td class="top middle"></td>
+      <td class="top right"></td>
+    </tr>
+
+  </table>
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.0/angular.js"></script>  
+  <script src="js/app.js"></script>
+  <script src="controller/gameController.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+</body>
+</html>
