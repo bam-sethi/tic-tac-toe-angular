@@ -1,12 +1,24 @@
-table {
-  margin: 0 auto;
-  border-radius:10px;
-}
-td {
-  border: 1px solid hotpink;
-  width: 200px;
-  height: 200px;
+header {
   text-align: center;
-  font-size: 8em;
-  box-sizing: border-box;
+  
+}
+table {
+  border: 1px solid hotpink;
+  width: 50%;
+  height:500px;
+  margin: 0 auto;
+}
+
+td {
+  border: 1px solid green;
+  width: 55px; 
+}
+
+
+
+.odd {
+  color: red;
+}
+.even {
+  color: blue;
 }
